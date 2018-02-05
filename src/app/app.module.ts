@@ -9,6 +9,7 @@ import { WarriorsComponent } from './warriors/app.warriors';
 import { TeamComponent } from './Team/app.team';
 import { ScheduleComponent } from './Schedule/app.schedule';
 import { PracticeComponent } from './Practice/app.practice';
+import { UserService } from './user.service';
 
 import {
   MatAutocompleteModule,
@@ -110,8 +111,11 @@ export class MaterialModule {}
     AppRoutingModule,
     MDBBootstrapModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    UserService
+  ],
   bootstrap: [AppComponent],
   schemas: [ NO_ERRORS_SCHEMA ]
 })
 export class AppModule { }
+ 
