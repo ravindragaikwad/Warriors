@@ -30,7 +30,12 @@ export class AppComponent implements OnInit {
               label: 'Pactice',
               link: './practice',
               index: 3
-          }
+          },
+          {
+            label: 'Login',
+            link: './login',
+            index: 3
+        }
       ];
   }
 

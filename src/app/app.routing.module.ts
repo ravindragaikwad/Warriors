@@ -5,6 +5,7 @@ import { WarriorsComponent } from './warriors/app.warriors';
 import { TeamComponent } from './Team/app.team';
 import { ScheduleComponent } from './Schedule/app.schedule';
 import { PracticeComponent } from './Practice/app.practice';
+import { loginFormComponent } from './loginForm/app.loginForm'
 
 const routes: Routes = [
     {
@@ -16,6 +17,7 @@ const routes: Routes = [
     { path: 'team', component: TeamComponent },
     { path: 'schedule', component: ScheduleComponent },
     { path: 'practice', component: PracticeComponent },
+    { path: 'login', component: loginFormComponent },
     { path: '**', redirectTo: '/warriors', pathMatch: 'full' }
   ];
 

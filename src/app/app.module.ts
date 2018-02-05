@@ -9,6 +9,7 @@ import { WarriorsComponent } from './warriors/app.warriors';
 import { TeamComponent } from './Team/app.team';
 import { ScheduleComponent } from './Schedule/app.schedule';
 import { PracticeComponent } from './Practice/app.practice';
+import { loginFormComponent } from './loginForm/app.loginForm'
 import { UserService } from './user.service';
 
 import {
@@ -97,7 +98,8 @@ export class MaterialModule {}
     WarriorsComponent,
     TeamComponent,
     ScheduleComponent,
-    PracticeComponent
+    PracticeComponent,
+    loginFormComponent
   ],
   imports: [
     BrowserModule,
